@@ -1,6 +1,6 @@
 {
   "name": "@william9527/virtual-team",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "AI-driven virtual team framework — automate software development with PM and Coder agents powered by Claude CLI",
   "keywords": [
     "ai",
