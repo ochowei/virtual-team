@@ -1,0 +1,46 @@
+{
+  "name": "@william9527/virtual-team",
+  "version": "0.2.0",
+  "description": "AI-driven virtual team framework — automate software development with PM and Coder agents powered by Claude CLI",
+  "keywords": [
+    "ai",
+    "automation",
+    "claude",
+    "virtual-team",
+    "development",
+    "orchestration",
+    "pm",
+    "coder"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/ochowei/virtual-team",
+    "directory": "packages/virtual-team"
+  },
+  "author": "william9527",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "virtual-team": "./bin/cli.mjs"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "prompts/",
+    "templates/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test lib/**/*.test.mjs",
+    "lint": "echo 'no linter configured'"
+  }
+}
